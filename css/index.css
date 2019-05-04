@@ -71,10 +71,42 @@ p {
     margin: 0 auto;
 }
 
+/* ================== */
+/* ===== HEADER ===== */
+/* ================== */
+header {
+    margin: 0 auto;
+    width: 840px;
+}
+
+/* ----- NAVIGATION ----- */
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px;
+    padding-bottom: 35px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.main-nav a:first-child {
+    margin-left: -40px;
+    margin-right: -40px;
+
+}
+
+/* ===== TOP CONTENT ===== */
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 25px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -85,6 +117,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* ===== MIDDLE CONTENT ===== */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -95,6 +128,8 @@ p {
     margin-bottom: 0;
 }
 
+/* ----- Boxes ----- */
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +139,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +146,47 @@ p {
     justify-content: center;
 }
 
+.box-1 {
+    background: teal;
+}
+
+.box-2 {
+    background: gold;
+}
+
+.box-3 {
+    background: cadetblue;
+}
+
+.box-4 {
+    background: coral;
+}
+
+.box-5 {
+    background: crimson;
+}
+
+.box-6 {
+    background: forestgreen;
+}
+
+.box-7 {
+    background: darkorchid;
+}
+
+.box-8 {
+    background: hotpink;
+}
+
+.box-9 {
+    background: indigo;
+}
+
+.box-10 {
+    background: dodgerblue;
+}
+
+/* ===== BOTTOM CONTENT ===== */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +201,55 @@ p {
     padding-right: 0;
 }
 
+/* ========================== */
+/* ===== ABOUT PAGE  ===== */
+/* ========================== */
+.about-intro {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 2%;
+    padding-bottom: 20px;
+}
+
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.about-content {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 30px;  
+    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+}
+
+.about-content h3 {
+    margin-top: 20px; 
+}
+
+.about-content p {
+    margin-bottom: 8%;
+}
+
+.about-content a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 9px 22px;
+}
+
+.about-bottom {
+    padding: 30px 2% 35px 2%;
+}
+
+/* ========================== */
+/* ===== FOOTER ===== */
+/* ========================== */
 footer {
     width: 100%;
     background: black;
