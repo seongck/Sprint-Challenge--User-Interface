@@ -99,9 +99,8 @@ header {
     margin-right: -40px;
 
 }
-/* ======================= */
+
 /* ===== TOP CONTENT ===== */
-/* ======================= */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -117,9 +116,7 @@ header {
     padding-bottom: 20px;  
 }
 
-/* ========================== */
 /* ===== MIDDLE CONTENT ===== */
-/* ========================== */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -187,9 +184,8 @@ header {
 .box-10 {
     background: dodgerblue;
 }
-/* ========================== */
+
 /* ===== BOTTOM CONTENT ===== */
-/* ========================== */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -203,6 +199,13 @@ header {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* ========================== */
+/* ===== ABOUT PAGE  ===== */
+/* ========================== */
+
+
+
 
 /* ========================== */
 /* ===== FOOTER ===== */
